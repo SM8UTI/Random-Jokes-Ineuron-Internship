@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import Header from "./Header";
 import { context } from "../Context/ContextApi";
 import Item from "./Item";

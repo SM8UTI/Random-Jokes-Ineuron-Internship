@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { context } from "../Context/ContextApi";
 import { MdOutlineFavoriteBorder, MdOutlineFavorite } from "react-icons/md";
-import { MdOutlineFavoriteBorder, MdOutlineFavorite } from "react-icons/md";
 import { toast } from "react-hot-toast";
 
 import { motion as m } from "framer-motion";
