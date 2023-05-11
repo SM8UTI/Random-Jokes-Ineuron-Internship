@@ -11,7 +11,7 @@ const Favourite = () => {
       <Toaster position="bottom-right" reverseOrder={false} />
       <Header />
 
-      {favData.length === 0 ? (
+      {favData.length === 0 || favData === null ? (
         <h1 className="text-xl w-full min-h-[calc(100vh_-_63px)] grid place-content-center">
           No Favourite List
         </h1>

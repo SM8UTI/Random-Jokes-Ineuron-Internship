@@ -5,7 +5,7 @@ import { toast } from "react-hot-toast";
 
 import { motion as m } from "framer-motion";
 
-const Item = ({ elem }) => {
+const Item = ({ elem = "" }) => {
   const { favData, setFavData } = useContext(context);
   return (
     <m.div
